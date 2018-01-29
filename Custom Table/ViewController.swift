@@ -8,6 +8,7 @@
 
 import UIKit
 
+var name = ""
 class ViewController: UIViewController ,UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
        return restus.count
@@ -30,6 +31,12 @@ class ViewController: UIViewController ,UITableViewDelegate, UITableViewDataSour
             restusImg.remove(at: indexPath.item)
             tvRestu.deleteRows(at: [indexPath], with: .automatic)
         }
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        name = restus[indexPath.row]
+        performSegue(withIdentifier: "segue1", sender: nil)
     }
     
     @IBOutlet weak var tvRestu: UITableView!

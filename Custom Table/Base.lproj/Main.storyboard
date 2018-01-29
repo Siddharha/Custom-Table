@@ -98,11 +98,39 @@
                     </view>
                     <connections>
                         <outlet property="tvRestu" destination="ETk-hw-UKW" id="Xeo-sC-l1Y"/>
+                        <segue destination="nNu-JB-aD0" kind="show" identifier="segue1" id="f75-Tg-zzq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="33.75" y="30.633802816901408"/>
+        </scene>
+        <!--Delail View Controller-->
+        <scene sceneID="8BX-qC-z8r">
+            <objects>
+                <viewController id="nNu-JB-aD0" customClass="DelailViewController" customModule="Custom_Table" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="azu-dr-KCl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RpQ-jg-8fP">
+                                <rect key="frame" x="16" y="90" width="288" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="gKK-rG-aLu"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblName" destination="RpQ-jg-8fP" id="Sq0-Di-bfa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9bZ-UK-DaV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="888.75" y="30.633802816901408"/>
         </scene>
     </scenes>
     <resources>
