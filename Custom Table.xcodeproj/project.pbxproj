@@ -14,6 +14,7 @@
 		8517A321201FBB9F00D4FFC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8517A31F201FBB9F00D4FFC7 /* LaunchScreen.storyboard */; };
 		8517A32C201FBB9F00D4FFC7 /* Custom_TableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8517A32B201FBB9F00D4FFC7 /* Custom_TableTests.swift */; };
 		8517A337201FBB9F00D4FFC7 /* Custom_TableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8517A336201FBB9F00D4FFC7 /* Custom_TableUITests.swift */; };
+		8517A345201FC1AC00D4FFC7 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8517A344201FC1AC00D4FFC7 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8517A332201FBB9F00D4FFC7 /* Custom TableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Custom TableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8517A336201FBB9F00D4FFC7 /* Custom_TableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom_TableUITests.swift; sourceTree = "<group>"; };
 		8517A338201FBB9F00D4FFC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8517A344201FC1AC00D4FFC7 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				8517A316201FBB9F00D4FFC7 /* AppDelegate.swift */,
 				8517A318201FBB9F00D4FFC7 /* ViewController.swift */,
 				8517A31A201FBB9F00D4FFC7 /* Main.storyboard */,
+				8517A344201FC1AC00D4FFC7 /* CustomTableViewCell.swift */,
 				8517A31D201FBB9F00D4FFC7 /* Assets.xcassets */,
 				8517A31F201FBB9F00D4FFC7 /* LaunchScreen.storyboard */,
 				8517A322201FBB9F00D4FFC7 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8517A345201FC1AC00D4FFC7 /* CustomTableViewCell.swift in Sources */,
 				8517A319201FBB9F00D4FFC7 /* ViewController.swift in Sources */,
 				8517A317201FBB9F00D4FFC7 /* AppDelegate.swift in Sources */,
 			);
